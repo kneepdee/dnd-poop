@@ -3,6 +3,7 @@ import './App.css';
 import { DndProvider, useDrag, useDrop } from 'react-dnd';
 // import TouchBackend from 'react-dnd-html5-backend';
 import TouchBackend from 'react-dnd-touch-backend';
+import Preview from 'react-dnd-preview';
 
 const ItemTypes = {
   STAR: 'star'
@@ -69,7 +70,7 @@ function Star({ indexNumber }) {
   return (
     <span
       style={{
-        fontSize: '4em',
+        fontSize: '6em',
         opacity: isDragging ? 0.5 : 1,
         cursor: 'move'
       }}
@@ -77,7 +78,7 @@ function Star({ indexNumber }) {
       aria-label="star"
       ref={drag}
     >
-      ⭐️{indexNumber}
+      ⭐️
     </span>
   );
 }
@@ -110,6 +111,14 @@ function renderQuarter(i, starPosition, setStarPosition) {
   );
 }
 
+const generatePreview = ({ itemType, item, style }) => {
+  return (
+    <div className="item-list__item" style={style}>
+      <Star />
+    </div>
+  );
+};
+
 function Layout() {
   const [starPosition, setStarPosition] = useState([0, 0]);
   console.log('starPosition:', starPosition);
@@ -125,6 +134,7 @@ function Layout() {
 
   return (
     <DndProvider backend={TouchBackend} options={opts}>
+      <Preview generator={generatePreview} />
       <div
         style={{
           width: '100vw',

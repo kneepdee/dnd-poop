@@ -8370,6 +8370,13 @@ react-dnd-html5-backend@^10.0.2:
   dependencies:
     dnd-core "^10.0.2"
 
+react-dnd-preview@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-dnd-preview/-/react-dnd-preview-5.0.0.tgz#a3a693c27195885a9f7413ccddf46a6fc5ef665a"
+  integrity sha512-TYXOsLUuEQpwAoxjPLWi+3bXsYGUBAslBFChUN6xyH11/ogsrQ9UrBIFf6uON7wmf2azsLAuWglfffXlZXSRsg==
+  dependencies:
+    prop-types "^15.7.2"
+
 react-dnd-touch-backend@^10.0.2:
   version "10.0.2"
   resolved "https://registry.yarnpkg.com/react-dnd-touch-backend/-/react-dnd-touch-backend-10.0.2.tgz#90cb916655539b838d49b8895e1813f8b874b3b4"

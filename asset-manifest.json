@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dnd-poop/static/css/main.d1b05096.chunk.css",
+    "main.js": "/dnd-poop/static/js/main.470f0dc6.chunk.js",
+    "main.js.map": "/dnd-poop/static/js/main.470f0dc6.chunk.js.map",
+    "runtime-main.js": "/dnd-poop/static/js/runtime-main.b3e4c4ab.js",
+    "runtime-main.js.map": "/dnd-poop/static/js/runtime-main.b3e4c4ab.js.map",
+    "static/js/2.1f9b113e.chunk.js": "/dnd-poop/static/js/2.1f9b113e.chunk.js",
+    "static/js/2.1f9b113e.chunk.js.map": "/dnd-poop/static/js/2.1f9b113e.chunk.js.map",
+    "index.html": "/dnd-poop/index.html",
+    "precache-manifest.895f23f2e14e06bb6877c84f7934dfe2.js": "/dnd-poop/precache-manifest.895f23f2e14e06bb6877c84f7934dfe2.js",
+    "service-worker.js": "/dnd-poop/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/dnd-poop/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.1f9b113e.chunk.js.LICENSE.txt": "/dnd-poop/static/js/2.1f9b113e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3e4c4ab.js",
+    "static/js/2.1f9b113e.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.470f0dc6.chunk.js"
+  ]
+}

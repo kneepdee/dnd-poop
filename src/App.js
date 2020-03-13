@@ -78,7 +78,7 @@ function Star({ indexNumber }) {
       aria-label="star"
       ref={drag}
     >
-      ⭐️
+      💩
     </span>
   );
 }
